@@ -418,7 +418,7 @@ To set up and run the Bosch Defect Detection pipeline locally, follow these step
 ```bash
 git clone https://github.com/Heathen-013/Capstone_Final_Submission_Bosch.git
 cd bosch-defect-detection
-
+```
 
 ## 📬 Contact
 For questions, feedback, or collaboration, reach out to **Harjap Singh** at [harjap23@gmail.com].
