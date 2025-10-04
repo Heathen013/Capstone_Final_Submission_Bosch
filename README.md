@@ -94,9 +94,6 @@ EDA highlighted key challenges and guided preprocessing:
 
 - **Temporal Features:**  
   Products show distinct patterns in earliest and latest timestamps. Defective vs. non-defective products have slightly different distributions.  
-  ![Earliest Timestamp Distribution](figures/earliest_timestamp_distribution.png)  
-  ![Latest Timestamp Distribution](figures/latest_timestamp_distribution.png)  
-  ![Timestamp Count Distribution](figures/timestamp_count_distribution.png)  
 
 - **Numeric Features:**  
   Example distributions of early‑line features (L0_S0_F0, L0_S0_F2, L0_S0_F4, L0_S0_F6, L0_S0_F8) show near‑normal or multimodal shapes, confirming the need for scaling and variance filtering.  
@@ -411,8 +408,8 @@ bosch-defect-detection/
 ├── outlier_logs/                      # Detailed outlier indices and bounds
 │   └── potential_numeric_outliers_iqr_full_dataset.txt
 
+```
 
-```text
 ## 🚀 Getting Started
 
 To set up and run the Bosch Defect Detection pipeline locally, follow these steps:
@@ -422,7 +419,7 @@ To set up and run the Bosch Defect Detection pipeline locally, follow these step
 git clone https://github.com/Heathen-013/Capstone_Final_Submission_Bosch.git
 cd bosch-defect-detection
 
-```text
+
 ## 📬 Contact
 For questions, feedback, or collaboration, reach out to **Harjap Singh** at [harjap23@gmail.com].
 
