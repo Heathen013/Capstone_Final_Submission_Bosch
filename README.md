@@ -94,7 +94,7 @@ EDA highlighted key challenges and guided preprocessing:
 
 - **Temporal Features:**  
   Products show distinct patterns in earliest and latest timestamps. Defective vs. non-defective products have slightly different distributions.
-  ![Distribution of Earliest Timestamp per Product](figures/Distribution of Earliest Timestamp per Product.png)  
+  ![Distribution of Earliest Timestamp per Product](figures/Distribution_of_Earliest_Timestamp_per_Product.png)  
   ![Distribution of Latest Timestamp per Product](figures/Distribution of Latest Timestamp per Product.png)  
   ![Distribution of Timestamp Count per Product](figures/Distribution of Timestamp Count per Product.png)  
 
