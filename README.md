@@ -365,7 +365,7 @@ All preprocessing and modeling steps are modularized for easy integration into p
 
 
 Directory Structure
-'''text
+```text
 bosch-defect-detection/
 ├── README.md                          # Project documentation with embedded visuals
 ├── requirements.txt                   # Python dependencies
