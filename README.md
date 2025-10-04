@@ -93,7 +93,10 @@ These insights validated the inclusion of all three sources in the final model p
 EDA highlighted key challenges and guided preprocessing:
 
 - **Temporal Features:**  
-  Products show distinct patterns in earliest and latest timestamps. Defective vs. non-defective products have slightly different distributions.  
+  Products show distinct patterns in earliest and latest timestamps. Defective vs. non-defective products have slightly different distributions.
+  ![Distribution of Earliest Timestamp per Product](figures/Distribution of Earliest Timestamp per Product.png)  
+  ![Distribution of L0_S0_F2](figures/L0_S0_F2_distribution.png)  
+  ![Distribution of L0_S0_F4](figures/L0_S0_F4_distribution.png)  
 
 - **Numeric Features:**  
   Example distributions of early‑line features (L0_S0_F0, L0_S0_F2, L0_S0_F4, L0_S0_F6, L0_S0_F8) show near‑normal or multimodal shapes, confirming the need for scaling and variance filtering.  
