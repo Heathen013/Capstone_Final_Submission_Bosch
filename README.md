@@ -412,17 +412,17 @@ bosch-defect-detection/
 │   └── potential_numeric_outliers_iqr_full_dataset.txt
 
 
-
+```text
 ## 🚀 Getting Started
 
 To set up and run the Bosch Defect Detection pipeline locally, follow these steps:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/bosch-defect-detection.git
+git clone https://github.com/Heathen-013/Capstone_Final_Submission_Bosch.git
 cd bosch-defect-detection
 
-
+```text
 ## 📬 Contact
 For questions, feedback, or collaboration, reach out to **Harjap Singh** at [harjap23@gmail.com].
 
