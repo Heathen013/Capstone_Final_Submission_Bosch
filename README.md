@@ -95,22 +95,22 @@ EDA highlighted key challenges and guided preprocessing:
 - **Temporal Features:**  
   Products show distinct patterns in earliest and latest timestamps. Defective vs. non-defective products have slightly different distributions.
   ![Distribution of Earliest Timestamp per Product](figures/Distribution_of_Earliest_Timestamp_per_Product.png)  
-  ![Distribution of Latest Timestamp per Product](figures/Distribution of Latest Timestamp per Product.png)  
-  ![Distribution of Timestamp Count per Product](figures/Distribution of Timestamp Count per Product.png)  
+  ![Distribution of Latest Timestamp per Product](figures/Distribution_of_Latest_Timestamp_per_Product.png)  
+  ![Distribution of Timestamp Count per Product](figures/Distribution_of_Timestamp_Count_per_Product.png)  
 
 - **Numeric Features:**  
   Example distributions of early‑line features (L0_S0_F0, L0_S0_F2, L0_S0_F4, L0_S0_F6, L0_S0_F8) show near‑normal or multimodal shapes, confirming the need for scaling and variance filtering.  
-  ![Distribution of L0_S0_F0](figures/Distribution of L0_S0_F0.png)  
-  ![Distribution of L0_S0_F2](figures/Distribution of L0_S0_F2.png)  
-  ![Distribution of L0_S0_F4](figures/Distribution of L0_S0_F4.png)  
-  ![Distribution of L0_S0_F6](figures/Distribution of L0_S0_F6.png)  
-  ![Distribution of L0_S0_F8](figures/Distribution of L0_S0_F8.png)  
+  ![Distribution of L0_S0_F0](figures/Distribution_of_L0_S0_F0.png)  
+  ![Distribution of L0_S0_F2](figures/Distribution_of_L0_S0_F2.png)  
+  ![Distribution of L0_S0_F4](figures/Distribution_of_L0_S0_F4.png)  
+  ![Distribution of L0_S0_F6](figures/Distribution_of_L0_S0_F6.png)  
+  ![Distribution of L0_S0_F8](figures/Distribution_of_L0_S0_F8.png)  
 
 - **Boxplots vs Response:**  
   Earliest/Latest timestamps and timestamp counts show subtle but visible differences between defective and non-defective products.  
-  ![Earliest Timestamp vs Response](figures/Earliest Timestamp vs Response.png)  
-  ![Latest Timestamp vs Response](figures/Latest Timestamp_vs Response.png)  
-  ![Timestamp Count vs Response](figures/Timestamp Count vs Response.png)  
+  ![Earliest Timestamp vs Response](figures/Earliest_Timestamp_vs_Response.png)  
+  ![Latest Timestamp vs Response](figures/Latest_Timestamp_vs_Response.png)  
+  ![Timestamp Count vs Response](figures/Timestamp_Count_vs_Response.png)  
 
 **Takeaway:**  
 EDA confirmed high sparsity, imbalance, and subtle temporal/numeric signals. These insights justified feature engineering (temporal aggregates), variance filtering, and imbalance‑aware modeling.
