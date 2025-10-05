@@ -395,7 +395,7 @@ bosch-defect-detection/
 │   ├── learning_curve.png
 │   ├── model_metrics.png
 │   ├── threshold_sweep.png
-├── processing_logs/                   # Logs of preprocessing steps
+├── drop_logs/                   # Logs of preprocessing steps
 │   ├── processed_num_100_percent_missing_dropped.txt
 │   ├── processed_num_low_variance_dropped.txt
 │   ├── processed_num_imputation_deferred.txt
